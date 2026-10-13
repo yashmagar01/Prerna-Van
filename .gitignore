@@ -1,0 +1,9 @@
+# Reel source footage lives only on local disk (~290MB, many duplicates) —
+# the site uses the small extracted stills in Prerna-Van/assets/ instead.
+# Revisit with Git LFS if the team ever needs footage versioned remotely.
+Media/*.mp4
+
+# Windows / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,148 @@
+🌿 Prerna Tirth — Initial Website Requirement Questionnaire
+Respondent: Athrva Adagale
+Purpose: Initial requirements for Website Prototype — V1
+Development Model: Prototyping Model
+A. Purpose & Content
+1. What is the primary purpose of the Prerna Tirth website?
+What should a visitor understand or do after visiting the website?
+2. Who are the primary audiences for this website?
+For example: existing members, new members, students, families, visitors, volunteers, organizations, etc.
+3. What are the most important things that MUST be showcased on the website?
+Please rank them in priority order.
+4. What information about Prerna Tirth should appear on the homepage itself?
+5. What information should have dedicated pages/sections instead of being displayed on the homepage?
+6. What activities, events, programs, or experiences should we showcase?
+For each, mention whether it needs photos, videos, descriptions, dates, registration, etc.
+7. Do you want to showcase the philosophy, vision, mission, values, or thoughts behind Prerna Tirth?
+If yes, which ones are most important?
+8. Should the website showcase the people/team behind Prerna Tirth?
+If yes, what information should be shown for each person?
+B. Website Structure & Navigation
+9. What pages/sections do you expect in the website?
+For example:
+- Home
+- About Us
+- Our Philosophy
+- Activities
+- Events
+- Gallery
+- Team
+- Join Us
+- Contact Us
+10. How should visitors navigate through the website?
+Do you prefer a simple top navigation, a hamburger menu, or another approach?
+11. Are there any sections that should be immediately accessible from every page?
+For example: Join Us, Contact, Events, Instagram.
+C. Visual Theme & UI/UX
+12. What overall feeling should the website create when someone opens it for the first time?
+Choose/rank:
+- 🌿 Natural
+- 🧘 Peaceful
+- ✨ Spiritual
+- 👥 Community-oriented
+- 🎓 Educational
+- 🎉 Energetic
+- 🌄 Adventurous
+- Minimal
+- Modern
+- Traditional
+13. What type of visual style do you prefer?
+- Minimal & clean
+- Nature-focused
+- Modern & premium
+- Traditional/Indian
+- Youth-oriented
+- Editorial/magazine style
+- Combination
+14. What colors should represent Prerna Tirth?
+Are there existing official colors, or should the design team propose a palette?
+15. What type of imagery should dominate the website?
+- Nature/landscape
+- People/community
+- Activities
+- Spiritual/philosophical imagery
+- A mixture
+16. Should the homepage use a large hero image/video/reel?
+If yes, what should it communicate?
+17. Are there any existing websites/designs whose look and feel you like?
+Please share links or screenshots if possible.
+18. Are there any design styles, colors, animations, or website experiences that you definitely DON'T want?
+D. Joining, Registration & Authentication
+This is where we avoid accidentally building a fancy login system nobody asked for. 😄
+19. Should visitors be able to join Prerna Tirth directly through the website?
+- Yes
+- No
+- Not decided
+20. If someone wants to join, what information should we collect?
+Possible fields:
+- Name
+- Age
+- Mobile number
+- Email
+- City
+- Occupation/Education
+- Interests
+- Reason for joining
+- Other
+21. Do we actually need user accounts/login authentication for the first version?
+- No login required
+- Registration form only
+- Mobile OTP
+- Email/password
+- Google login
+- Other
+22. If users have accounts, what should they be able to do after logging in?
+For example:
+- View/edit profile
+- Register for events
+- View upcoming events
+- Track registrations
+- Volunteer
+- Access community resources
+- Nothing beyond registration
+23. Should joining Prerna Tirth require approval from an administrator, or should registration be automatic?
+E. Events & Interaction
+24. Should the website allow users to view and register for upcoming events?
+If yes:
+- Event calendar?
+- Event details?
+- Registration form?
+- Seat availability?
+- Confirmation message/email?
+- Registration history?
+25. Should users be able to interact with the organization through the website?
+For example:
+- Contact form
+- Join Us
+- Volunteer
+- Event registration
+- Collaboration request
+- Feedback
+- Newsletter
+- WhatsApp
+F. Content Presentation
+26. How should Prerna Tirth's content primarily be presented?
+- Text
+- Images
+- Videos
+- Reels
+- Stories
+- Testimonials
+- Infographics
+- Combination
+27. Should the website include a gallery/media section?
+If yes, should it contain:
+- Photos
+- Videos
+- Instagram reels
+- Event-wise albums
+- Categories
+28. Should the website have a blog/news/updates section?
+If yes, who will create and publish the content?
+29. Should the website support multiple languages?
+- English
+- Marathi
+- Hindi
+- English + Marathi
+- Other
+30. If you could choose only THREE things that the first prototype absolutely must get right, what would they be?
