@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+/* Prerna Tirth tokens — values copied verbatim from Prerna-Van/styles.css (see ARCHITECTURE_DECISIONS.md §D5). */
+@theme {
+  --color-forest: #294a38;
+  --color-forest-deep: #1e382b;
+  --color-sage: #a8b7a0;
+  --color-ivory: #f7f4ec;
+  --color-earth: #b97855;
+  --color-ink: #292c27;
+  --color-muted: #596658;
+  --color-border: #d9dfd3;
+
+  --font-display: "Lora", "Noto Serif Devanagari", Georgia, serif;
+  --font-sans: "Inter", "Noto Sans Devanagari", system-ui, sans-serif;
+  --font-mr: "Noto Sans Devanagari", "Inter", system-ui, sans-serif;
+
+  --radius-card: 10px;
+
+  /* Prototype collapses at 860px, not the Tailwind default 768px. */
+  --breakpoint-md: 860px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-ivory);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+/* Prototype type scale — one place, not repeated per component. */
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  color: var(--color-forest-deep);
+  line-height: 1.2;
+  margin: 0 0 16px;
+}
+h1 {
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  font-weight: 500;
+}
+h2 {
+  font-size: clamp(1.5rem, 3.4vw, 2.25rem);
+  font-weight: 500;
+}
+h3 {
+  font-size: 1.25rem;
+}
+p {
+  margin: 0 0 16px;
+  max-width: 62ch;
+}
+figcaption {
+  font-size: 0.875rem;
+  color: var(--color-muted);
+  margin-top: 8px;
+  max-width: 60ch;
+}
+
+/* Philosophy path — connected steps with → / ↓ connectors (prototype parity). */
+.phil-path {
+  list-style: none;
+  margin: 32px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+.phil-path li {
+  position: relative;
+  padding-top: 8px;
+  border-top: 3px solid var(--color-sage);
+}
+.phil-path li + li::before {
+  content: "↓";
+  position: absolute;
+  left: 12px;
+  top: -22px;
+  color: var(--color-earth);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+@media (min-width: 860px) {
+  .phil-path {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .phil-path li + li::before {
+    content: "→";
+    left: -26px;
+    top: -4px;
+    transform: translateX(-50%);
+  }
+}
+
+/* Prototype parity: max content width + section anchor offset under sticky header. */
+.wrap {
+  max-width: 1120px;
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+section[id] {
+  scroll-margin-top: 76px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  background: var(--color-forest);
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 99;
+}
+
+.skip-link:focus {
+  left: 8px;
+  top: 8px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-earth);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
