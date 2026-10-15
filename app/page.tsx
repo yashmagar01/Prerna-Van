@@ -3,6 +3,7 @@ import SiteFooter from "@/components/SiteFooter";
 import SectionHeading from "@/components/SectionHeading";
 import PhilosophyPath from "@/components/PhilosophyPath";
 import ExperienceSection from "@/components/ExperienceSection";
+import ReelStorytellingSection from "@/components/ReelStorytellingSection";
 import MantraSection from "@/components/MantraSection";
 import ImageFigure from "@/components/ImageFigure";
 import { PrimaryButton, SecondaryButton } from "@/components/Buttons";
@@ -93,6 +94,8 @@ export default function Home() {
         <MantraSection />
 
         <ExperienceSection />
+
+        <ReelStorytellingSection />
 
         {/* PLACE */}
         <section className="bg-white border-y border-border py-16" id="place" aria-labelledby="place-title">
